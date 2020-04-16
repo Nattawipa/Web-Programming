@@ -1,0 +1,80 @@
+/*when move on button*/ 
+a:hover
+{
+    color: rgb(255, 255, 255);
+    background-color: violet;
+}
+/*when click button*/ 
+a:active
+{
+    color: crimson;
+}
+/*class nav-content set a margin, padding, background color and overflow option*/
+.nav-content
+{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;
+}
+/*in navagitionbar section that contain a button that can click*/
+nav a
+{
+    font-size: 16px;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 500;
+}
+/*body section*/
+body
+{
+    margin: 0;
+    background-image: url(https://img.freepik.com/free-vector/stars-could-sky-background-pastel-color_56745-159.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+/*divide section that have heading1*/
+div h1
+{
+    text-align: center;
+    font-family: monospace;
+    font-weight: 200px;
+    font-size: 80px;
+}
+/*image section*/
+img
+{
+    width: 300px;
+    height: 450px;
+   border-radius: 40px;
+}
+/*table section*/
+table
+{
+    margin: 25px auto;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: plum;
+    border-radius: 40px;
+}
+/*class ttable set font family, font size and text aligning*/
+.ttable
+{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+/*divide section that have Italic text inside*/
+div i
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
