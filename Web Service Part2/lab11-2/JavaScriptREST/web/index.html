@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Friends Service</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initialscale=1.0">
+ <script src="js/FriendsService.js"></script>
+ </head>
+ <body>
+ <table>
+ <tr>
+ <td>Enter Friend ID : </td>
+ <td><input type="text" id="id" size="20"/></td>
+ </tr>
+ <tr>
+ <td>Friend Name : </td>
+<td> <input type="text" id="name" size="20"/> </td>
+ </tr>
+ <tr>
+ <td>Course: </td>
+ <td> <input type="text" id="course" size="20"/></td>
+ </tr>
+ </table>
+ <input type="button" value="Get All Friends" onclick="getAllFriends()"/>
+ <input type="button" value="Get Friend" onclick="getFriends()"/>
+ <input type="button" value="Add Friend" onclick="addFriends()"/>
+ <input type="button" value="Update Friend" onclick="updateFriends()"/>
+ <input type="button" value="Delete Friend" onclick="deleteFriends()"/>
+ <p id="output"></p>
+ </body>
+</html>
