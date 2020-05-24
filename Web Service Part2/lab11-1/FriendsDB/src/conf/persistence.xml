@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+<!--  <persistence-unit name="FriendsDBPU" transaction-type="RESOURCE_LOCAL">
+    <class>restclient.Friends</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/FriendsDB"/>
+      <property name="javax.persistence.jdbc.user" value="nam"/>
+      <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver"/>
+      <property name="javax.persistence.jdbc.password" value="nam"/>
+    </properties>
+  </persistence-unit>-->
+  <persistence-unit name="FriendsDBPU" transaction-type="JTA">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <jta-data-source>jdbc/FriendsDB</jta-data-source>
+    <class>resrestclient.Friends</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+        <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/FriendsDB"/>
+        <property name="javax.persistence.jdbc.user" value="nam"/>
+        <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver"/>
+        <property name="javax.persistence.jdbc.password" value="nam"/>
+    </properties>
+   </persistence-unit>
+
+</persistence>
