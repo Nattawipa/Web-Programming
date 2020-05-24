@@ -1,0 +1,49 @@
+/*when move on button*/ 
+a:hover
+{
+    color: rgb(255, 255, 255);
+    background-color: violet;
+}
+/*when click button*/ 
+a:active
+{
+    color: crimson;
+}
+/*in navagitionbar section that contain content*/
+.nav-content{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;
+}
+/*in navagitionbar section that contain a button that can click*/
+nav a
+{
+    font-size: 16px;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 500;
+}
+/*body section*/
+body{
+    margin: 0;
+    background-image: url(https://assets.website-files.com/5797becae742bc5f110b10de/5b1700e15ec17a8cc245478f_The-Journey-Background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+/*class text  set margin font(family,size,color)*/
+.text
+{
+    margin: 35vw 0px 0px 40%;
+     font-family: 'Courgette', cursive;
+     font-size:60px;
+    color: white;
+}
