@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+        <!-- head section -->
+        <head>
+                <title>HOMEWORK 3</title>
+                <!-- import JQuery -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                <!-- import JavaScript file -->
+                <script src="homework3.js"></script>
+                <!-- import google font -->
+                <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&family=Pacifico&display=swap" rel="stylesheet">
+                <!-- import css file -->
+                <link rel="stylesheet" href="homework3.css"> 
+        </head>
+        <!-- body section -->
+        <body style="text-align: center;background-color: black;">
+                <!-- first section (search tab) -->
+                <div>
+                        <table style="margin-left: 34%;">
+                                <td id="first_box"> Search Video: </td>
+                                <td> <input type="text" size="40" name="video" id="input" /> </td>
+                                <td> <button id="button">Search</button> </td>
+                        </table>
+                </div>
+                <!-- loading section (use to show some symbol when it's loading) -->
+                <div class="lds-heart" id="loading"><div></div></div>
+                <!-- section for show the result -->
+                <div id="video_list"></div>
+        </body>
+</html>
